@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import ReactApexChart from "react-apexcharts";
 
 const ApexChart = () => {
-  const [options, setOptions] = useState<ApexOptions>({
+  const [options] = useState<ApexOptions>({
     chart: {
       height: 350,
       type: "line",
@@ -48,7 +48,7 @@ const ApexChart = () => {
       ],
     },
   });
-  const [chartData, setChartData] = useState({
+  const [chartData] = useState({
     series: [
       {
         name: "Desktops",
