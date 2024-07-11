@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar/sidebar";
 
 const DashboardLayout = () => {
   return (
-    <div className="w-full bg-backgroud h-full flex">
+    <div className="w-full bg-backgroud h-screen overflow-auto lg:flex">
       <Sidebar />
 
       <Outlet />

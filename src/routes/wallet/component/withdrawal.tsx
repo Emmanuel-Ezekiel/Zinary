@@ -3,7 +3,7 @@ import { withdrawalsData } from "../../../constants/constants";
 
 const Withdrawals = () => {
   return (
-    <div className="w-auto h-auto flex flex-wrap gap-[16px]">
+    <div className="w-auto h-auto flex flex-wrap gap-[8px] lg:gap-[16px]">
       {withdrawalsData.map((item) => (
         <div
           key={item.id}
